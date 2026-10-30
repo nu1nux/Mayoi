@@ -17,7 +17,11 @@ needs a `## <version>` section here, or its build fails.
 - New terminals in herdr-core open at once and say they are starting, rather than freezing the window.
 - A dot on a terminal's tab and panel chip shows that its shell runs in herdr-core; hover it for its address.
 - The dot pulses, and a pill over the terminal says what it waits for, while it starts or its machine is away.
-- Mayoi starts faster with terminals of other machines to attach, looking them all up at once.
+- The dot is cut out of the terminal icon by a thin ring, and its color fades as the terminal's state changes.
+- Once a terminal reaches herdr-core, its dot flashes and the pill shows a check and **Running in herdr-core**.
+- A terminal fades while it waits for its machine, and comes back to full brightness once reattached.
+- Hover a terminal's dot while it starts or waits to see what it waits for.
+- Mayoi starts faster with terminals of other machines to attach, and waits for a machine that is away.
 - What you type in a terminal while it starts in herdr-core reaches the shell once it attaches.
 - **Copy hc Address** in a terminal's menu copies its address in herdr-core, for `hc attach` elsewhere.
 - The panel's terminals in herdr-core attach again when Mayoi starts, rather than starting new shells.

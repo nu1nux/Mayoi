@@ -1145,6 +1145,7 @@
   "hcInstallTitle": "安装 hc，在 herdr-core 中运行终端？",
   "hcInstallDetail": "terminalBackend 为 \"hc\"，但没有安装 hc，所以终端在 Mayoi 中运行。Mayoi 可以运行 herdr 的安装程序，把 hc 装到 ~/.local/bin。",
   "hcInstall": "安装 hc",
+  "hcReady": "已在 herdr-core 中运行",
   "hcStarting": "正在 herdr-core 中启动…",
   "termWaiting": "正在等待 {host}…",
   "hcRunsIn": "在 herdr-core 中以 {addr} 运行，关闭窗口后仍会继续运行",

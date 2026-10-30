@@ -1386,6 +1386,7 @@
   "hcInstallTitle": "Install hc to Run Terminals in herdr-core?",
   "hcInstallDetail": "terminalBackend is \"hc\", but hc isn't installed, so terminals run in Mayoi. Mayoi can run herdr's installer, which puts hc in ~/.local/bin.",
   "hcInstall": "Install hc",
+  "hcReady": "Running in herdr-core",
   "hcStarting": "Starting in herdr-core…",
   "termWaiting": "Waiting for {host}…",
   "hcRunsIn": "Runs in herdr-core as {addr}, and keeps running when the window closes",

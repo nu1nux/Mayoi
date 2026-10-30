@@ -1145,6 +1145,7 @@
   "hcInstallTitle": "hc をインストールして、ターミナルを herdr-core で実行しますか？",
   "hcInstallDetail": "terminalBackend は \"hc\" ですが、hc がインストールされていないため、ターミナルは Mayoi で実行されます。Mayoi は herdr のインストーラーを実行して、hc を ~/.local/bin に入れられます。",
   "hcInstall": "hc をインストール",
+  "hcReady": "herdr-core で実行中",
   "hcStarting": "herdr-core で起動中…",
   "termWaiting": "{host} を待っています…",
   "hcRunsIn": "herdr-core で {addr} として実行中。ウィンドウを閉じても実行し続けます",

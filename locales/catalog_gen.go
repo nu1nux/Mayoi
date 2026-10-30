@@ -11730,6 +11730,16 @@ func (msgs Messages) HcInstall() string {
 	return Catalog.Format(msgs.locale, "hcInstall", nil)
 }
 
+// HcReady says "Running in herdr-core"
+// in the language the app shows.
+func HcReady() string { return In(i18n.Locale()).HcReady() }
+
+// HcReady says "Running in herdr-core"
+// in the language of msgs.
+func (msgs Messages) HcReady() string {
+	return Catalog.Format(msgs.locale, "hcReady", nil)
+}
+
 // HcStarting says "Starting in herdr-core…"
 // in the language the app shows.
 func HcStarting() string { return In(i18n.Locale()).HcStarting() }
